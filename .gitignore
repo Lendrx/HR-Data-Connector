@@ -1,0 +1,35 @@
+# Virtuelle Umgebung
+venv/
+*.pyc
+__pycache__/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Persönliche Konfigurationsdateien
+*.env
+.env
+
+# CSV-Dateien für Testdaten, falls sie nicht im Repository sein sollen
+*.csv
+!personal.csv  # personal.csv bleibt, da es als Beispiel dient
+
+# Betriebssystem-Spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# Uvicorn Log-Dateien
+*.log
+
+# Jupyter Notebook spezifische Dateiendungen, falls sie nicht hochgeladen werden sollen
+*.ipynb
+!notebook_example.ipynb  # notebook_example.ipynb bleibt, als Beispiel
+
+# Pytest Caches
+.pytest_cache/
+
+# Sonstige temporäre Dateien
+*.tmp
+*.swp
+*.bak
+*.sav
