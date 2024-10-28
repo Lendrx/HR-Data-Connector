@@ -1,10 +1,15 @@
 # HR Data API Project 🚀
 
-Dies ist ein einfaches Projekt, das zeigt, wie man eine API in Python erstellt, um HR-Daten (Personaldaten) zu bereinigen und zu transformieren und sie dann über einen API-Aufruf in einem Jupyter Notebook analysieren kann. Die API wird mit **FastAPI** erstellt, und **Pandas** wird für die Datenverarbeitung verwendet.
+Dieses Projekt zeigt, wie man eine API in Python erstellt, um HR-Daten (Personaldaten) zu bereinigen und zu transformieren. Die Daten werden dann über einen API-Aufruf in einem Jupyter Notebook abgerufen und analysiert. Die API wird mit **FastAPI** erstellt, und **Pandas** wird für die Datenverarbeitung verwendet.
 
-## Übersicht 📚
+## Projektstruktur 📂
 
-Die API übernimmt eine CSV-Datei (`personal.csv`) mit HR-Daten und berechnet eine neue Spalte „Total Salary“, die das Gehalt auf Basis des Stundenlohns und der geleisteten Arbeitsstunden berechnet. Die transformierten Daten werden dann in `clean_data.csv` gespeichert und können über die API in einem Jupyter Notebook abgerufen und weiter analysiert werden.
+Das Projekt basiert auf folgenden Komponenten:
+
+- **personal.csv**: Beispiel-HR-Daten im CSV-Format.
+- **Virtuelle Umgebung**: Zum Isolieren der Abhängigkeiten.
+- **FastAPI**: API-Framework zum Bereitstellen der Daten.
+- **Jupyter Notebook**: Zur Analyse der bereinigten Daten.
 
 ## Voraussetzungen ✅
 
@@ -13,10 +18,12 @@ Die API übernimmt eine CSV-Datei (`personal.csv`) mit HR-Daten und berechnet ei
 - **Virtuelle Umgebung (venv)** zum Isolieren von Abhängigkeiten
 - Bibliotheken: `FastAPI`, `Pandas`, `uvicorn`, `requests`
 
-## Installation 🛠️
+## Installation und Einrichtung 🛠️
 
-1. **Repository klonen**
+### 1. Repository klonen
 
-   ```bash
-   git clone https://github.com/username/hr_data_api_project.git
-   cd hr_data_api_project
+Klonen Sie das Repository von GitHub:
+
+```bash
+git clone https://github.com/username/hr_data_api_project.git
+cd hr_data_api_project
