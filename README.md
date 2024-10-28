@@ -1,22 +1,37 @@
 # HR Data API Project 🚀
 
-Dies ist ein einfaches Projekt, das zeigt, wie man eine API in Python erstellt, um HR-Daten (Personaldaten) zu bereinigen und zu transformieren und sie dann über einen API-Aufruf in einem Jupyter Notebook analysieren kann. Die API wird mit **FastAPI** erstellt, und **Pandas** wird für die Datenverarbeitung verwendet.
+Dieses Projekt demonstriert, wie man eine API in Python erstellt, um HR-Daten (Personaldaten) zu bereinigen und zu transformieren. Die Daten werden über einen API-Aufruf in einem Jupyter Notebook abgerufen und analysiert. Die API wird mit **FastAPI** erstellt und **Pandas** wird für die Datenverarbeitung verwendet.
 
-## Übersicht 📚
+## Projektstruktur 📂
 
-Die API übernimmt eine CSV-Datei (`personal.csv`) mit HR-Daten und berechnet eine neue Spalte „Total Salary“, die das Gehalt auf Basis des Stundenlohns und der geleisteten Arbeitsstunden berechnet. Die transformierten Daten werden dann in `clean_data.csv` gespeichert und können über die API in einem Jupyter Notebook abgerufen und weiter analysiert werden.
+Das Projekt basiert auf folgenden Komponenten:
+
+- **data/**: Enthält die CSV-Dateien.
+  - `personal.csv`: Beispiel-HR-Daten im CSV-Format.
+  - `clean_data.csv`: Transformierte Daten (aus der Datenbereinigung).
+  
+- **src/**: Enthält alle Python-Skripte.
+  - `main.py`: Haupt-API-Code.
+  - `transform_data.py`: Skript zur Datenbereinigung und -transformation.
+
+- **notebooks/**: Enthält das Jupyter Notebook für die Analyse.
+  - `analysis_notebook.ipynb`: Notebook zur Analyse der transformierten Daten.
+
+- **requirements.txt**: Liste der benötigten Bibliotheken.
+- **README.md**: Dokumentation und Projektbeschreibung.
+- **.gitignore**: Dateien, die nicht in das Repository aufgenommen werden sollen.
 
 ## Voraussetzungen ✅
 
 - **Python 3.8+** installiert
 - **Git** installiert (um das Repository zu klonen)
-- **Virtuelle Umgebung (venv)** zum Isolieren von Abhängigkeiten
-- Bibliotheken: `FastAPI`, `Pandas`, `uvicorn`, `requests`
 
-## Installation 🛠️
+## Installation und Einrichtung 🛠️
 
-1. **Repository klonen**
+### 1. Repository klonen
 
-   ```bash
-   git clone https://github.com/username/hr_data_api_project.git
-   cd hr_data_api_project
+Klonen Sie das Repository von GitHub:
+
+```bash
+git clone https://github.com/username/hr_data_api_project.git
+cd hr_data_api_project
