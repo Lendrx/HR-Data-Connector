@@ -3,9 +3,6 @@ venv/
 *.pyc
 __pycache__/
 
-# Jupyter Notebook Checkpoints
-.ipynb_checkpoints/
-
 # Persönliche Konfigurationsdateien
 *.env
 .env
