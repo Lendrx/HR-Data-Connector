@@ -1,4 +1,4 @@
-# HR Data API Project 🚀
+# HR - Data Project 🚀
 
 Dieses Projekt demonstriert, wie man eine API in Python erstellt, um HR-Daten (Personaldaten) zu bereinigen und zu transformieren. Die Daten werden über einen API-Aufruf in einem Jupyter Notebook abgerufen und analysiert. Die API wird mit **FastAPI** erstellt und **Pandas** wird für die Datenverarbeitung verwendet.
 
