@@ -1,6 +1,6 @@
 # HR Analytics API
 
-## 🎯 Was macht es?
+## 🎯 Worum geht's?
 REST API für HR-Analysen mit ML-Integration. Liefert Personalanalysen und Vorhersagemodelle über standardisierte Endpunkte.
 
 ## 🛠️ Wie ist es gebaut?
